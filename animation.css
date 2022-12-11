@@ -1,0 +1,18 @@
+div{
+    width: 300px;
+    height: 400px;
+    background: palegreen;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+    animation: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+   0% {transform: translateY(-500px);}
+   75% {transform: translateY(90px);}
+   100% {transform: translateY(70px);} 
+}

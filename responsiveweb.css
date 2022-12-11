@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+@media (max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:480px) {
+    html{
+        font-size: 45%
+    }
+}
+body{
+    margin: 0%;
+}
+.heading{
+    height: 60rem;
+    background-image: url('./IMG/foodcardimg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#mainHeading{
+    font-size: 7rem;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
+#subHeading{
+    font-size: 3rem;
+}
+.content1{
+    width: 50rem;
+    height: 40rem;
+    background-image: url('./IMG/chefcardimg1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 3rem;
+}
+.content2{
+    width: 50rem;
+    height: 40rem;
+    background-image: url('./IMG/chefcardimg1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 3rem;
+}
+.content3{
+    width: 50rem;
+    height: 40rem;
+    background-image: url('./IMG/chefcardimg1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 3rem;
+}
+.content4{
+    width: 50rem;
+    height: 40rem;
+    background-image: url('./IMG/chefcardimg1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 3rem;
+}
+.content5{
+    width: 50rem;
+    height: 40rem;
+    background-image: url('./IMG/chefcardimg1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 3rem;
+}
+.content6{
+    width: 50rem;
+    height: 40rem;
+    background-image: url('./IMG/chefcardimg1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 3rem;
+}

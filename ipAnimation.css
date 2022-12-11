@@ -1,0 +1,42 @@
+h1{
+    animation-name: animate1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+@keyframes animate1 {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}
+h2{
+    animation-name: animate2;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+@keyframes animate2 {
+    from{
+        transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}
+h3{
+    animation-name: animate3;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+@keyframes animate3 {
+    from{
+        transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}

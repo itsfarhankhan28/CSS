@@ -1,0 +1,28 @@
+button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    margin: 5px 10px;
+    /* opacity: 0; */
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 1s ease-in-out , transform 1s ease-in-out;
+}
+.dropdown > .drop-btn:focus + .dropdown-menu{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}

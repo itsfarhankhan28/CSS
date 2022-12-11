@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg , green , yellow);
+    background-repeat: no-repeat;
+}
+.navbar{
+    background: rgba(255,255,255,0.45);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /* position: sticky; */
+}
+ul{
+    overflow: auto;
+    margin-right: 150px;
+}
+li{
+    float: right;
+    margin: 15px 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+}

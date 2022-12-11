@@ -1,0 +1,45 @@
+body{
+    background-image: url('./loginpic.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form{
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 35px;
+    background: rgba(255,255,255,0.45);
+    backdrop-filter: blur(10px);
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: italic;
+}
+.user, .pass{
+    margin-top: 15px;
+    font-size: 25px;
+}
+input{
+    background: none;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 25px;
+}
+#submit-btn{
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+}

@@ -1,0 +1,24 @@
+body{
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background: bisque;
+    border: none;
+    border-radius: 30px;
+}
+.data{
+    margin-top: 380px;
+    transform: translateY(100px);
+    transition: all;
+    transition-duration: 2s;
+    opacity: 0;
+}
+.card:hover .data{
+    transform: translateY(-1px);
+    opacity: 1;
+}
