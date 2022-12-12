@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: aqua;
+    padding: 1.5rem 5rem;
+}
+.nav-list{
+    display:flex ;
+    gap: 5rem;
+}
+li{
+    list-style: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3sec;
+}
+li:hover{
+    color: white;
+}
+.mobile-menu-icon{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+.mobile-close-icon{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+@media (max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:480px) {
+    html{
+        font-size: 45%;
+    }
+    .nav-list{
+        display: none;
+    }
+    .mobile-menu-icon{
+        visibility: visible;
+    }
+}
