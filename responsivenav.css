@@ -1,36 +1,82 @@
-html{
-    font-size: 62.5%;
-}
 *{
-    box-sizing: border-box;
-}
-body{
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: aqua;
 }
 .logo{
-    padding: 0 2rem;
+    margin: 2rem;
     font-size: 3rem;
 }
 .nav-list{
     display: flex;
-}
-.nav-list li{
-    margin: 0 2rem;
+    gap: 4rem;
     list-style: none;
+    margin: 0 5rem;
 }
-.nav-list li a{
-    font-size: 2rem;
-    color: white;
+.nav-link:link{
+    display: block;
     text-decoration: none;
+    font-size: 2rem;
+    color: black;
 }
-.nav-list li:hover{
-    background-color: grey;
+.nav-link:link li a{
+    display:block ;
+}
+/* .nav-link:link li a:hover{
+    background-color: black;
+} */
+.mobile-nav-icon{
+    width: 4rem;
+    height: 4rem;
+    display: none;
+    cursor: pointer;
+}
+@media (max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+
+}
+@media (max-width:480px) {
+    html{
+        font-size: 45%;
+    }
+    .mobile-nav-icon{
+        display: block;
+        position: relative;
+        left: 58rem;
+        bottom: 6rem;
+    }
+    .nav-link{
+        width: 100%;
+    }
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-list{
+        position: relative;
+        left: 22rem;
+        width: 100%;
+        flex-direction: column;
+        display: none;
+    }
+    .nav-list li{
+        text-align: center;
+    }
+    .nav-list li a{
+        padding: .5rem 1rem;
+    }
+    .nav-list.active{
+        display: flex;
+    }
 }
